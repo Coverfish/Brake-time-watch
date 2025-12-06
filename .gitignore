@@ -1,0 +1,27 @@
+# ----------------------------------------------------
+# IGNORIERE BUILD- UND TEMPORÄRE DATEIEN
+# ----------------------------------------------------
+
+build/
+dist/
+*.hex
+*.elf
+*.s1
+*.map
+
+# MPLAB Konfigurationen
+nbproject/private/
+nbproject/Makefile-*
+nbproject/Package-*
+
+# Compiler Cache
+*.o
+*.d
+
+# Logs
+*.log
+
+# ignore everything except main.c
+*
+!main.c
+!.gitignore
