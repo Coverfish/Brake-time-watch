@@ -21,7 +21,9 @@ nbproject/Package-*
 # Logs
 *.log
 
-# ignore everything except main.c
+# ignore everything except main.c and screenshots
 *
 !main.c
+!screenshots/
+!screenshots/**
 !.gitignore
